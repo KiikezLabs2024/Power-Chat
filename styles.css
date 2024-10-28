@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header.hero {
+    text-align: center;
+    padding: 4rem;
+    background: linear-gradient(120deg, #4A90E2, #1C39BB);
+    color: #fff;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header.hero p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #1C39BB;
+    margin-bottom: 1rem;
+}
+
+.project-card, .skills ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.project-card i, .skills li i {
+    font-size: 2.5rem;
+    color: #1C39BB;
+    margin-right: 0.5rem;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.contact p, .contact .social-links a {
+    font-size: 1.1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact .social-links a {
+    margin: 0 0.5rem;
+    color: #1C39BB;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1C39BB;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.downloads {
+    padding: 2rem;
+    background-color: #111;
+    color: #00ff00;
+    text-align: center;
+}
+
+.downloads h2 {
+    font-size: 2rem;
+    color: #1C39BB;
+    margin-bottom: 1rem;
+}
+
+.cmd-box {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Courier New", monospace;
+}
+
+.cmd-box pre {
+    color: #00ff00;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.cmd-box a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.cmd-box a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
